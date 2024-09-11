@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(135deg, rgb(96, 0, 252), rgb(245, 0, 233));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    margin: 4vw auto;
+    width: 40vw;
+    height: 20vh;
+    padding: 1vw;
+    border: 2px solid black;
+    white-space: pre;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    border-radius: 18px ;
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: bolder;
+    backdrop-filter: blur(10px);
+    
+}
+.text{
+    color: yellow;
+    margin: 0 4px 0 6px; 
+}
+.blink{
+    /* width: 0.001px; */
+    height: 1.5vw;
+    border: 0.3vw solid black;
+    margin: 0 4px;
+    border-radius: 10px;
+}
+
+.display-none{
+    display: none;
+}
